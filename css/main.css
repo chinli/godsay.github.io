@@ -1196,14 +1196,14 @@ pre .javascript .function {
   vertical-align: top;
   line-height: 56px;
   font-size: 48px;
-  color: #555;
+  color: #696969;
   font-weight: normal;
   font-family: 'Lobster Two', 'Roboto Slab', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
   font-size: 13px;
-  color: #555;
+  color: #999;
 }
 .use-motion .brand {
   opacity: 0;
@@ -1949,7 +1949,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9effff;
+  background: #01a394;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2861,7 +2861,7 @@ body {
 #sidebar p,
 #sidebar span,
 #sidebar a {
-  color: #fff;
+  color: #008080;
 }
 .aplayer-list ol li:hover {
 /*列表悬停颜色*/
