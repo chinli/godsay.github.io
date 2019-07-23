@@ -123,7 +123,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="OpenCV,docker,">
 
 
 
@@ -134,17 +134,18 @@
 
 
 
-<meta name="description" content="何羡春满园，一镜两风华。">
-<meta name="keywords" content="互联网 物联网">
-<meta property="og:type" content="website">
-<meta property="og:title" content="侃神堂">
-<meta property="og:url" content="https://chinli.github.io/archives/index.html">
+<meta name="description" content="前言站在巨人的肩膀上才能看的更远，而opencv就是一个由Intel公司发起的一个计算机视觉和图像处理的巨人（开源的函数库），在这里我们可以很轻松的调用opencv为我们提供的500多个C\C++函数，这些跨平台的函数具有强大的图像和矩阵处理的运算能力。如今Opencv已经进入3.0时代，而在2.2版本之后opencv包含着12个模块，就像我们拥有一个巨大的宝库，但是我们得清楚宝库里面藏着哪些宝物">
+<meta name="keywords" content="OpenCV,docker">
+<meta property="og:type" content="article">
+<meta property="og:title" content="OpenCV(1) -- 打开方式">
+<meta property="og:url" content="https://chinli.github.io/2019/07/23/opencv的另类打开方式/index.html">
 <meta property="og:site_name" content="侃神堂">
-<meta property="og:description" content="何羡春满园，一镜两风华。">
+<meta property="og:description" content="前言站在巨人的肩膀上才能看的更远，而opencv就是一个由Intel公司发起的一个计算机视觉和图像处理的巨人（开源的函数库），在这里我们可以很轻松的调用opencv为我们提供的500多个C\C++函数，这些跨平台的函数具有强大的图像和矩阵处理的运算能力。如今Opencv已经进入3.0时代，而在2.2版本之后opencv包含着12个模块，就像我们拥有一个巨大的宝库，但是我们得清楚宝库里面藏着哪些宝物">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-07-23T08:30:56.527Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="侃神堂">
-<meta name="twitter:description" content="何羡春满园，一镜两风华。">
+<meta name="twitter:title" content="OpenCV(1) -- 打开方式">
+<meta name="twitter:description" content="前言站在巨人的肩膀上才能看的更远，而opencv就是一个由Intel公司发起的一个计算机视觉和图像处理的巨人（开源的函数库），在这里我们可以很轻松的调用opencv为我们提供的500多个C\C++函数，这些跨平台的函数具有强大的图像和矩阵处理的运算能力。如今Opencv已经进入3.0时代，而在2.2版本之后opencv包含着12个模块，就像我们拥有一个巨大的宝库，但是我们得清楚宝库里面藏着哪些宝物">
 
 
 
@@ -174,13 +175,13 @@
 
 
 
-  <link rel="canonical" href="https://chinli.github.io/archives/">
+  <link rel="canonical" href="https://chinli.github.io/2019/07/23/opencv的另类打开方式/">
 
 
 
 
 
-  <title>归档 | 侃神堂</title>
+  <title>OpenCV(1) -- 打开方式 | 侃神堂</title>
   
 
 
@@ -218,7 +219,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -362,247 +363,275 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+    
 
-      <span class="archive-page-counter">
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://chinli.github.io/2019/07/23/opencv的另类打开方式/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Frank.Lee">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="侃神堂">
+    </span>
+
+    
+      <header class="post-header">
+
         
         
+          <h2 class="post-title" itemprop="name headline">OpenCV(1) -- 打开方式</h2>
         
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-23T15:17:06+08:00">
+                2019-07-23
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2019-07-23T16:30:56+08:00">
+                2019-07-23
+              </time>
+            
+          </span>
+
           
-        
-        嗯..! 目前共计 6 篇日志。 继续努力。
-      </span>
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术分享/" itemprop="url" rel="index">
+                    <span itemprop="name">技术分享</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2019/07/23/opencv的另类打开方式/" class="leancloud_visitors" data-flag-title="OpenCV(1) -- 打开方式">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
+      
 
+      
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>站在巨人的肩膀上才能看的更远，而opencv就是一个由Intel公司发起的一个计算机视觉和图像处理的巨人（开源的函数库），在这里我们可以很轻松的调用opencv为我们提供的500多个C\C++函数，这些跨平台的函数具有强大的图像和矩阵处理的运算能力。如今Opencv已经进入3.0时代，而在2.2版本之后opencv包含着12个模块，就像我们拥有一个巨大的宝库，但是我们得清楚宝库里面藏着哪些宝物，只有了解这些宝物，我们才能利用它们来解决问题。</p>
+<h2 id="常规打开-–-在Linux中安装"><a href="#常规打开-–-在Linux中安装" class="headerlink" title="常规打开 – 在Linux中安装"></a>常规打开 – 在Linux中安装</h2><h3 id="1-环境准备"><a href="#1-环境准备" class="headerlink" title="1.环境准备"></a>1.环境准备</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[compiler] sudo apt-get install build-essential</span><br><span class="line">[required] sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev</span><br><span class="line">[optional] sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev</span><br></pre></td></tr></table></figure>
+<h3 id="2-获取OpenCV源代码"><a href="#2-获取OpenCV源代码" class="headerlink" title="2.获取OpenCV源代码"></a>2.获取OpenCV源代码</h3><p>有如下两种方式获取OpenCV源码：</p>
+<blockquote>
+<ul>
+<li><a href="http://opencv.org/releases.html" target="_blank" rel="noopener">获取最新稳定的OpenCV版本</a>, 下载后解压缩；</li>
+<li>从Git Repository获取最新的源码<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd 〜/&lt;my_working_directory&gt;</span><br><span class="line">git clone https://github.com/opencv/opencv.git</span><br><span class="line">git clone https://github.com/opencv/opencv_contrib.git</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</blockquote>
+<p><a href="https://www.w3cschool.cn/opencv/opencv-sjw628u6.html" target="_blank" rel="noopener">关于opencv的开发及介绍请参考W3C school</a></p>
+<h2 id="另类打开-–-docker容器"><a href="#另类打开-–-docker容器" class="headerlink" title="另类打开 – docker容器"></a>另类打开 – docker容器</h2><p>使用docker容器可以更快速的搭建opencv的开发环境，与大神们一起使用同一个开发环境，免去环境准备的各种问题和烦恼，并且，如果你想换个电脑，再也不用重新配置环境等琐碎事情，使用docker让你事半功倍。</p>
+<h3 id="1-docker安装"><a href="#1-docker安装" class="headerlink" title="1. docker安装"></a>1. docker安装</h3><p>使用官网脚本安装docker<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">runoob@runoob:~$ wget -qO- https://get.docker.com/ | sh</span><br></pre></td></tr></table></figure></p>
+<p>安装完成后有个提示：<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"> If you would like to use Docker as a non-root user, you should now consider</span><br><span class="line"> adding your user to the "docker" group with something like:</span><br><span class="line"></span><br><span class="line"> sudo usermod -aG docker runoob</span><br><span class="line">Remember that you will have to log out and back in for this to take effect!</span><br></pre></td></tr></table></figure></p>
+<p><a href="https://www.runoob.com/docker/ubuntu-docker-install.html" target="_blank" rel="noopener">docker的安装及基本操作请参考runoob网站</a></p>
+<h3 id="2-docker获取OpenCV容器"><a href="#2-docker获取OpenCV容器" class="headerlink" title="2. docker获取OpenCV容器"></a>2. docker获取OpenCV容器</h3><p>搜索docker仓库中OpenCV容器<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker search opencv</span><br></pre></td></tr></table></figure></p>
+<p>或者直接去<a href="https://hub.docker.com/search?q=opencv&amp;type=image" target="_blank" rel="noopener"><strong>官网</strong></a>进行搜索，根据需要选择仓库和Ttags，可以根据star和pull数量来判断当前容器的活跃度。<br>下面是我选择的仓库，冒号后面是Tags，如果不加Tags，则默认拉去latest版本，可能会比较大，影响下载时间。<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull victorhcm/opencv:3.2.0-python3.4</span><br></pre></td></tr></table></figure></p>
+<p>等待pull完成，这样你就拥有一个干净独立的opencv开发环境了。</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    Frank.Lee
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://chinli.github.io/2019/07/23/opencv的另类打开方式/" title="OpenCV(1) -- 打开方式">https://chinli.github.io/2019/07/23/opencv的另类打开方式/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/OpenCV/" rel="tag"># OpenCV</a>
+          
+            <a href="/tags/docker/" rel="tag"># docker</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
         
-        
+
         
 
         
           
-          <div class="collection-title">
-            <h2 class="archive-year" id="archive-year-2019">2019</h2>
+          <div id="needsharebutton-postbottom">
+            <span class="btn">
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </span>
           </div>
         
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2019/07/23/opencv的另类打开方式/" itemprop="url">
-              
-                <span itemprop="name">OpenCV(1) -- 打开方式</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-07-23T15:17:06+08:00" content="2019-07-23">
-          07-23
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
+        </div>
+      
       
 
-        
-        
-        
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/07/08/No-title/" rel="next" title="No title">
+                <i class="fa fa-chevron-left"></i> No title
+              </a>
+            
+          </div>
 
-        
-        
+          <span class="post-nav-divider"></span>
 
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2019/07/08/No-title/" itemprop="url">
-              
-                <span itemprop="name">No title</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-07-08T14:10:44+08:00" content="2019-07-08">
-          07-08
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2019/03/08/babyplan-1/" itemprop="url">
-              
-                <span itemprop="name">宝贝计划-希望</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-03-08T20:02:32+08:00" content="2019-03-08">
-          03-08
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2019/03/08/gnosis-jianghu/" itemprop="url">
-              
-                <span itemprop="name">圈子很小，抬手处皆是江湖</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-03-08T14:10:56+08:00" content="2019-03-08">
-          03-08
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2019/03/07/First-blog/" itemprop="url">
-              
-                <span itemprop="name">first blog - 而立之年，珍惜时光</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-03-07T19:34:25+08:00" content="2019-03-07">
-          03-07
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2019/03/07/hello-world/" itemprop="url">
-              
-                <span itemprop="name">Hello World</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-03-07T14:16:43+08:00" content="2019-03-07">
-          03-07
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-    </div>
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -610,6 +639,15 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zMjgzNi85Mzk3"></div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -632,8 +670,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -772,6 +819,22 @@ var ap = new APlayer({
 		<!--my custom code end-->
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#常规打开-–-在Linux中安装"><span class="nav-number">2.</span> <span class="nav-text">常规打开 – 在Linux中安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-环境准备"><span class="nav-number">2.1.</span> <span class="nav-text">1.环境准备</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-获取OpenCV源代码"><span class="nav-number">2.2.</span> <span class="nav-text">2.获取OpenCV源代码</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#另类打开-–-docker容器"><span class="nav-number">3.</span> <span class="nav-text">另类打开 – docker容器</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-docker安装"><span class="nav-number">3.1.</span> <span class="nav-text">1. docker安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-docker获取OpenCV容器"><span class="nav-number">3.2.</span> <span class="nav-text">2. docker获取OpenCV容器</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -919,6 +982,10 @@ var ap = new APlayer({
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
 
   
 
@@ -948,6 +1015,17 @@ var ap = new APlayer({
 
 
 
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
   
 
 
@@ -1124,26 +1202,6 @@ var ap = new APlayer({
   
 
   
-  
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-          processEscapes: true,
-          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-        }
-      });
-    </script>
-
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for (i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-      });
-    </script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
   
 
 
